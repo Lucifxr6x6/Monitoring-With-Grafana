@@ -1,0 +1,5 @@
+---
+
+- hosts: docker_prod 
+  roles:
+      - docker_service

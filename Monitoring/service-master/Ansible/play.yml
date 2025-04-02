@@ -1,0 +1,5 @@
+---
+
+- hosts: docker_test 
+  roles:
+    - docker_service

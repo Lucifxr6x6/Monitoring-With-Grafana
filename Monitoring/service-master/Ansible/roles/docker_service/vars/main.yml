@@ -1,0 +1,5 @@
+version: latest
+container_name: go app
+container_image: registry.gitlab/liutsifer/doc/{{version}}
+host_port: 80
+container_port: 8080
